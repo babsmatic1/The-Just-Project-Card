@@ -9,9 +9,9 @@
 
 .container{
     width: 30vw;
-    height: 90vh;
-    margin: 30px 0px 0px 450px;
-    background-color: rgb(233, 227, 227);
+    height: 95vh;
+    margin: 20px 0px 0px 450px;
+    background-color: rgb(40, 37, 206);
 }
 
 img{
@@ -22,24 +22,33 @@ img{
 h1,h2{
 font-size: 20px;
 margin-left: 30px;
+color: white;
 }
 
 p{
  text-align: left;   
  margin-left: 30px;
+ color: white;
+ line-height: 25px;
+}
+
+.p2{
+    color: rgb(204, 203, 203);
 }
 
 .link{
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     text-align: center;
-    width: 95px;
-    height: 25px;
-    margin-left: 30px;
+    padding-top: 10px;
+    color: blue;
     
+    font-weight: 600;
+    width: 125px;
+    height: 35px;
+    border-radius: 15px;
+    margin-left: 30px;
 }
 
 .link a{
-    justify-content: center;
     text-decoration: none;
-    color: white;
 }
